@@ -30,7 +30,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><span>M.J</span> TRANSPORTES E LOGÍSTICA</a>
+                    <a class="navbar-brand" href="index.php"><span>M.J</span> TRANSPORTES E LOGÍSTICA</a>
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
