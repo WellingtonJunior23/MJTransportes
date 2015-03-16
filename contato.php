@@ -114,6 +114,7 @@
 					 Av: Presidente Altino, 1358<br>
 					 São Paulo, SP.</address>
 					<p>
+						<i class="icon-phone"></i>CNPJ: 10.551.485/0001-65 <br>
 						<i class="icon-phone"></i>Tel: (11) 3714-2540 <br>
 						<i class="icon-phone"></i>Cel: (11) 98632-8861 <br>
 						<i class="icon-envelope-alt"></i> mj.sac@mjtransportes.com

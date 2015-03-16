@@ -59,6 +59,30 @@
 	</section>
 
 	<hr>
+	<div class="container">
+	<div class="col-lg-8">
+		<div class="row">
+			<div class="col-lg-12 col-lg-offset-2">
+				<h3 class="heading">Principais Clientes</h3>
+				
+				<div class="row">
+					<section id="projects">
+					<ul id="thumbs" class="portfolio">
+					<li>
+					<img src="img/MC.png" alt="Mc Donalds">
+					<img src="img/mundial.png" alt="Mundial Logistics">
+					<img src="img/fast.png" alt="Fast Frame">
+					<img src="img/fujitsu.png" alt="Fujitsu">
+					<img src="img/ats.png" alt="ATS">
+					<img src="img/weir.png" alt="Weir">
+					</li>			
+					</ul>
+					</section>
+				</div>
+			</div>			 
+		</div>
+	</div>
+	</div>
 	
 	<footer>
 	<div class="container">
@@ -71,6 +95,7 @@
 					 Av: Presidente Altino, 1358<br>
 					 São Paulo, SP.</address>
 					<p>
+						<i class="icon-phone"></i>CNPJ: 10.551.485/0001-65 <br>
 						<i class="icon-phone"></i>Tel: (11) 3714-2540 <br>
 						<i class="icon-phone"></i>Cel: (11) 98632-8861 <br>
 						<i class="icon-envelope-alt"></i> mj.sac@mjtransportes.com

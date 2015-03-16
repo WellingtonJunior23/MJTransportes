@@ -30,7 +30,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.php"><span>M.J</span> TRANSPORTES E LOGÍSTICA</a>
+                    <a class="navbar-brand" href="index.php"><span></span></a>
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
@@ -202,6 +202,7 @@
 					 Av: Presidente Altino, 1358<br>
 					 São Paulo, SP.</address>
 					<p>
+					    <i class="icon-phone"></i>CNPJ: 10.551.485/0001-65 <br>
 						<i class="icon-phone"></i>Tel: (11) 3714-2540 <br>
 						<i class="icon-phone"></i>Cel: (11) 98632-8861 <br>
 						<i class="icon-envelope-alt"></i> mj.sac@mjtransportes.com

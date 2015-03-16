@@ -35,10 +35,12 @@ if (mail($to, $assunto, $mensagem, 'De:' .$email)){
 	echo 'Olá ' .$nome . ' Obrigado pelo seu contato' . '<br>' .
 		 'Sua mensagem foi enviada com sucesso';
 }else {
-	echo 'Desculpe, sua mensagem não foi enviada, tente novamente mais tarde!';
+	echo 'Desculpe, sua mensagem não foi enviada, tente novamente mais tarde!' . '<br><br>';
 }
 	
 ?>
+
+<a class="btn btn-default" href="index.php" role="button">Voltar</a>
 
 </div>
 </body>
