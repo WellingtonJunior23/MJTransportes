@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>M.J Transportes e Logística</title>
+<title>MJ Transportes e Logística</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="" />
 <meta name="author" content="http://bootstraptaste.com" />
@@ -29,14 +29,14 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.php"><span></span></a>
+                    </button>                
+                    <a class="navbar-brand" href="index.php"><span>MJ </span>Transportes e Logística</a>
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.php">Home</a></li>
-                        <li><a href="servicos.php">Serviços</a></li>                        
-                        <li><a href="quemsomos.php">Quem somos</a></li>
+                        <li><a href="quemsomos.php">Quem Somos</a></li>                        
+                        <li><a href="servicos.php">Serviços</a></li>
                         <li><a href="nossosclientes.php">Nossos Clientes</a></li>                        
                         <li><a href="contato.php">Contato</a></li>
                     </ul>
@@ -93,7 +93,7 @@
 			<div class="col-lg-12">
 				<div class="big-cta">
 					<div class="cta-text">
-						<h2><span>M.J Transportes e Logística</span> a sua tranquilidade é a nossa satisfação</h2>
+						<h2><span>A SUA TRANQUILIDADE É A NOSSA SATISFAÇÃO</span> </h2>
 					</div>
 				</div>
 			</div>
@@ -108,12 +108,12 @@
 					<div class="col-lg-3">
 						<div class="box">
 							<div class="box-gray aligncenter">
-								<h4>A M.J Transportes</h4>
+								<h4>A MJ Transportes</h4>
 								<div class="icon">
 								<i class="fa fa-desktop fa-3x"></i>
 								</div>
 								<p>
-								 Conheça um pouco mais a respeito da M.J Transportes
+								 Conheça um pouco mais a respeito da MJ Transportes.
 								</p>
 									
 							</div>
@@ -131,7 +131,7 @@
 								<i class="fa fa-edit fa-3x"></i>
 								</div>
 								<p>
-								 Conheça todos os clientes atendidos pela M.J.
+								 Conheça todos os clientes atendidos pela MJ.
 								</p>
 									
 							</div>
@@ -149,7 +149,7 @@
 								<i class="fa fa-edit fa-3x"></i>
 								</div>
 								<p>
-								 Conheça todos os serviços prestados pela M.J Transportes.
+								 Conheça todos os serviços prestados pela MJ Transportes.
 								</p>
 									
 							</div>
@@ -198,13 +198,12 @@
 				<div class="widget">
 					<h5 class="widgetheading">Entre em contato conosco</h5>
 					<address>
-					<strong>M.J Transportes e Logística</strong><br>
+					<strong>MJ Transportes e Logística</strong><br>
 					 Av: Presidente Altino, 1358<br>
 					 São Paulo, SP.</address>
 					<p>
 					    <i class="icon-phone"></i>CNPJ: 10.551.485/0001-65 <br>
-						<i class="icon-phone"></i>Tel: (11) 3714-2540 <br>
-						<i class="icon-phone"></i>Cel: (11) 98632-8861 <br>
+						<i class="icon-phone"></i>Tel: (11) 3714-2540 <br>						
 						<i class="icon-envelope-alt"></i> mj.sac@mjtransportes.com
 					</p>
 				</div>
@@ -214,8 +213,8 @@
 					<h5 class="widgetheading">Páginas</h5>
 					<ul class="link-list">
 						<li><a href="index.php">Home</a></li>
-						<li><a href="servicos.php">Serviços</a></li>
 						<li><a href="quemsomos.php">Quem Somos</a></li>
+						<li><a href="servicos.php">Serviços</a></li>						
 						<li><a href="nossosclientes.php">Nossos Clientes</a></li>						
 						<li><a href="contato.php">Contato</a></li>
 					</ul>
@@ -231,7 +230,7 @@
 				<div class="col-lg-6">
 					<div class="copyright">
 						<p>
-							<span>&copy; M.J Transportes e Logística, Todos os direitos reservados. </span>
+							<span>&copy; MJ Transportes e Logística, Todos os direitos reservados. </span>
 						</p>
 					</div>
 				</div>
