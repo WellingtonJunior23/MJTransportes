@@ -25,13 +25,20 @@
 $nome = filter_var($_POST['nome'],FILTER_SANITIZE_STRIPPED);
 $email = filter_var($_POST['email'],FILTER_SANITIZE_EMAIL);
 $assunto = filter_var($_POST['assunto'], FILTER_SANITIZE_EMAIL);
-$mensagem = filter_var($_POST['mensagem'], FILTER_SANITIZE_EMAIL);
+$mensagem = filter_var($_POST['mensagem'], FILTER_SANITIZE_STRING);
 
 $email = filter_var_array($_POST,array('email' => FILTER_SANITIZE_EMAIL,
 									   'email' => FILTER_VALIDATE_EMAIL));
 $to = 'mj.sac@mjtransportes.com';
 
-if (mail($to, $assunto, $mensagem, 'De:' .$email)){
+/*
+$headers  = 'MIME-Version: 1.0' . "\r\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+$headers .= "From: $emaildominio\r\n";
+$headers .= "Return-Path: $emaildominio\r\n";
+*/
+
+if (mail($to, $assunto, $mensagem, $headers)){
 	echo 'Olá ' .$nome . ' Obrigado pelo seu contato' . '<br>' .
 		 'Sua mensagem foi enviada com sucesso';
 }else {
