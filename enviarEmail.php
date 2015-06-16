@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>M.J Transportes e Logística</title>
+<title>MJ Transportes e Logística</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="" />
 <meta name="author" content="http://bootstraptaste.com" />
@@ -13,9 +13,12 @@
 <link href="css/flexslider.css" rel="stylesheet" />
 <link href="css/style.css" rel="stylesheet" />
 
+
+<!-- Theme skin -->
 <link href="skins/default.css" rel="stylesheet" />
 
 </head>
+
 <body>
 <div class="container">
 <h2>Obrigado Por Entrar em Contato Conosco</h2>
@@ -27,8 +30,8 @@ $email = filter_var($_POST['email'],FILTER_SANITIZE_EMAIL);
 $assunto = filter_var($_POST['assunto'], FILTER_SANITIZE_EMAIL);
 $mensagem = filter_var($_POST['mensagem'], FILTER_SANITIZE_STRING);
 
-$email = filter_var_array($_POST,array('email' => FILTER_SANITIZE_EMAIL,
-									   'email' => FILTER_VALIDATE_EMAIL));
+/*$email = filter_var_array($_POST,array('email' => FILTER_SANITIZE_EMAIL,
+									   'email' => FILTER_VALIDATE_EMAIL));*/
 $to = 'mj.sac@mjtransportes.com';
 
 /*
@@ -38,7 +41,9 @@ $headers .= "From: $emaildominio\r\n";
 $headers .= "Return-Path: $emaildominio\r\n";
 */
 
-if (mail($to, $assunto, $mensagem, $headers)){
+$EmailMessage = 'Mensagem: ' . $mensagem . '<br><br>' . ' De: '. $nome . '<br>' . 'E-mail: ' . $email;
+
+if (mail($to, $assunto, $EmailMessage, $headers)){
 	echo 'Olá ' .$nome . ' Obrigado pelo seu contato' . '<br>' .
 		 'Sua mensagem foi enviada com sucesso';
 }else {
