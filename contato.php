@@ -41,15 +41,11 @@
 		</div>
 	</div>
 	</section>
-
-	<section id="content">
-	<div class="map">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.6769119506503!2d-46.751661599999984!3d-23.544120199999988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceff53c92ce8e7%3A0x32ef50c1468da48e!2sAv.+Pres.+Alt%C3%ADno%2C+1358+-+Jaguare%2C+S%C3%A3o+Paulo+-+SP%2C+05323-002!5e0!3m2!1spt-BR!2sbr!4v1422290513216" width="600" height="450" frameborder="0" style="border:0"></iframe>		
-	</div>
-	<div class="container">
+	<br>
+		<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<h4>Entre em contato conosco preenchendo o <strong>fomulário de contato abaixo</strong></h4>
+				<h4>Entre em contato conosco preenchendo o fomulário abaixo</h4>
 				<form id="contactform" action="enviarEmail.php" method="post" class="validateform" name="send-contact">
 					<div id="sendmessage">
 						 Sua mensagem foi enviada com sucesso, Obrigado!
@@ -60,16 +56,23 @@
 							<div class="validation">
 							</div>
 						</div>
-						<div class="col-lg-4 field">
+						<div class="col-lg-3 field">
 							<input type="text" name="email" placeholder="* Endereço de e-mail" required />
 							<div class="validation">
 							</div>
 						</div>
-						<div class="col-lg-4 field">
+						<div class="col-lg-3 field">
 							<input type="text" name="assunto" placeholder="* Assunto" required />
 							<div class="validation">
 							</div>
 						</div>
+						
+						<div class="col-lg-2 field">
+							<input type="text" name="telefone" placeholder="* Telefone" required />
+							<div class="validation">
+							</div>
+						</div>
+						
 						<div class="col-lg-12 margintop10 field">
 							<textarea rows="12" name="mensagem" class="input-block-level" placeholder="* Sua mensagem aqui..." required></textarea>
 							<div class="validation">
@@ -84,6 +87,13 @@
 			</div>
 		</div>
 	</div>
+	
+	<section id="content">
+	
+	<div class="map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.6769119506503!2d-46.751661599999984!3d-23.544120199999988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceff53c92ce8e7%3A0x32ef50c1468da48e!2sAv.+Pres.+Alt%C3%ADno%2C+1358+-+Jaguare%2C+S%C3%A3o+Paulo+-+SP%2C+05323-002!5e0!3m2!1spt-BR!2sbr!4v1422290513216" width="600" height="450" frameborder="0" style="border:0"></iframe>		
+	</div>
+
 	</section>
 	
 	<?php 

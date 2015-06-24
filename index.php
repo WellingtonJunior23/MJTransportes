@@ -14,7 +14,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>                
-                    <a class="navbar-brand" href="index.php"><span>MJ </span>Transportes e Logística</a>
+                    <a class="navbar-brand" href="index.php"><img alt="Logo" src="img/logo.png"></a>
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
